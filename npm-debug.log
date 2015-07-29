@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jasonwebtoken',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json webapp@1.0.0 No repository field.
+6 warn package.json webapp@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'jasonwebtoken', null ]
+9 verbose cache add name=undefined spec="jasonwebtoken" args=["jasonwebtoken",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'jasonwebtoken',
+10 verbose parsed url   path: 'jasonwebtoken',
+10 verbose parsed url   href: 'jasonwebtoken' }
+11 silly lockFile c2826f2a-jasonwebtoken jasonwebtoken
+12 verbose lock jasonwebtoken C:\Users\c016813\AppData\Roaming\npm-cache\c2826f2a-jasonwebtoken.lock
+13 silly lockFile c2826f2a-jasonwebtoken jasonwebtoken
+14 silly lockFile c2826f2a-jasonwebtoken jasonwebtoken
+15 verbose addNamed [ 'jasonwebtoken', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 17798f7c-jasonwebtoken jasonwebtoken@
+18 verbose lock jasonwebtoken@ C:\Users\c016813\AppData\Roaming\npm-cache\17798f7c-jasonwebtoken.lock
+19 silly addNameRange { name: 'jasonwebtoken', range: '*', hasData: false }
+20 verbose request where is /jasonwebtoken
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 3eeca8957fe603b2
+23 verbose url raw /jasonwebtoken
+24 verbose url resolving [ 'https://registry.npmjs.org/', './jasonwebtoken' ]
+25 verbose url resolved https://registry.npmjs.org/jasonwebtoken
+26 verbose request where is https://registry.npmjs.org/jasonwebtoken
+27 info trying registry request attempt 1 at 20:33:51
+28 http GET https://registry.npmjs.org/jasonwebtoken
+29 http 404 https://registry.npmjs.org/jasonwebtoken
+30 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '51',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   date: 'Sun, 07 Jun 2015 03:33:51 GMT',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   connection: 'keep-alive',
+30 verbose headers   'x-served-by': 'cache-lax1431-LAX',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1433648031.627908,VS0,VE334' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '51',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Sun, 07 Jun 2015 03:33:51 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1433648031.627908,VS0,VE334' } ]
+32 silly lockFile 17798f7c-jasonwebtoken jasonwebtoken@
+33 silly lockFile 17798f7c-jasonwebtoken jasonwebtoken@
+34 error 404 404 Not Found: jasonwebtoken
+34 error 404
+34 error 404 'jasonwebtoken' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'webapp'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Windows_NT 6.1.7601
+36 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jasonwebtoken" "--save"
+37 error cwd C:\Users\c016813\Desktop\WebApp
+38 error node -v v0.10.36
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]

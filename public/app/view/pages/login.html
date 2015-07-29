@@ -1,0 +1,11 @@
+<div class = "container" ng-controller = "mainController as login">
+  <div class = "row">
+    <div class = "col-sm-2 col-sm-offset-4">
+      <form class = "form-signin" method = "post" ng-submit = "login.doLogin()">
+        Username: <input type = "text" name = "username" class = "form-control" ng-model = "login.loginData.username">
+        Password: <input type = "password" name = "password" class = "form-control" ng-model = "login.loginData.password">
+        <button type = "submit" class = "btn btn-warning">Login</button>
+      </form>
+    </div>
+  </div>
+</div>
